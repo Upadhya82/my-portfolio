@@ -1,0 +1,78 @@
+.section {
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 80px;
+}
+
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--color-bg);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.18s;
+}
+
+.item:hover { border-color: var(--color-border-hover); }
+
+.iconBox {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.iconAccent {
+  background: var(--color-accent-bg);
+}
+
+.iconSuccess {
+  background: var(--color-success-bg);
+}
+
+.content { flex: 1; }
+
+.degree {
+  font-size: 14.5px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.institution {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+.period {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}

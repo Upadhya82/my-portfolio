@@ -1,0 +1,13 @@
+.main {
+  padding-top: 60px; /* offset for fixed navbar */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 600px) {
+  .container { padding: 0 1.25rem; }
+}
